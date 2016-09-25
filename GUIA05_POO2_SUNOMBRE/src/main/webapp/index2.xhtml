@@ -49,10 +49,22 @@ and open the template in the editor.
         </style>
     </h:head>
     <h:body>
+        <div class="row">
+            <div class="col-md-1">
+                <h:link outcome="index" class="btn btn-primary btn-xs" value="Ir a Index 1"/>
+            </div>
+            <div class="col-md-1">
+                <h:link outcome="index2" class="btn btn-primary btn-xs" value="Ir a Index 2"/>
+            </div>
+            <div class="col-md-1">
+                <h:link outcome="index3" class="btn btn-primary btn-xs" value="Ir a Index 3"/>
+            </div>
+        </div>
+        <br/>
         <div class="row col-md-12">
             <div class="col-md-4 col-xs-4">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Formulario</div>
+                    <div class="panel-heading">Grupo Alumnos</div>
                     <div class="panel-body">
                         <h:form>
                             <!--Form exclusivo para los remotos-->
